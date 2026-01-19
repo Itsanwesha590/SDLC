@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Judson:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Judson:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+:root {
+    --primary-color: #F08526;
+    --secondary-color: #0B125A;
+    --font-color: #000000;
+    --card-bg-color: #FFE8D2;
+    --light-font-color: #A39F9F;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*===========================
+SUCCESS SECTION
+=============================
+*/
+.success-sec {
+    padding: 50px 0;
+}
+
+.title-head {
+    color: var(--primary-color);
+}
+
+.head-start span {
+    color: var(--secondary-color);
+}
+
+.head-start {
+    text-align: center;
+    font-family: "Judson";
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.success-card {
+    padding: 30px 30px 34px;
+    background: var(--card-bg-color);
+    max-width: 420px;
+    min-height: 400px;
+    border-radius: 20px;
+    font-family: "Judson";
+}
+
+.success-title {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.business-icon {
+    margin-right: 5px;
+}
+
+.success-card p {
+    font-family: "Poppins";
+    color: rgba(0, 0, 0, 60%);
+    font-size: 14px;
+    margin-bottom: 10px;
+    max-width: 350px;
+    min-height: 135px;
+}
+
+.success-card ul {
+    display: flex;
+    align-items: center;
+}
+
+.stars {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.client-part {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins";
+    font-weight: lighter;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 60%);
+}
+
+.client-image {
+    margin-left: auto;
+}
+
+.successSwiper {
+    position: relative;
+}
+
+.success-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 14px; */
+    margin-top: 25px;
+    position: absolute;
+    left: 45%;
+}
+
+.swiper-button-prev-custom,
+.swiper-button-next-custom{
+    cursor:pointer;
+}
+/* .swiper-button-prev-custom :active,
+.swiper-button-next-custom :active{
+    box-shadow: #A39F9F;
+} */
