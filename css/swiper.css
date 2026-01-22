@@ -120,10 +120,12 @@ SUCCESS SECTION
 }
 
 .swiper-button-prev-custom,
-.swiper-button-next-custom{
-    cursor:pointer;
+.swiper-button-next-custom {
+    cursor: pointer;
 }
+
 /* .swiper-button-prev-custom :active,
 .swiper-button-next-custom :active{
     box-shadow: #A39F9F;
 } */
+

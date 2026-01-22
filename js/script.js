@@ -18,3 +18,17 @@ const successSwiper = new Swiper('.successSwiper', {
         }
     }
 });
+
+/*================
+PRICE-SWIPER
+===================
+*/
+const swiper = new Swiper(".priceSwiper", {
+    loop: true,
+    autoplay: {
+        delay: 600,
+        disableOnInteraction: false,
+    },
+    effect: "fade",
+    speed: 900,
+});
