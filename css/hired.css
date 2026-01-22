@@ -196,6 +196,155 @@ EXPERT SECTION
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.service-pill img{
+
+.service-pill img {
     margin-right: 1.5px;
+}
+
+/*================================
+MEDIA QUERIES
+==================================
+*/
+/*=========================
+MAIN SECTION
+===========================
+*/
+@media screen and (max-width:1440px) {
+    .card-part {
+        max-width: 900px;
+    }
+
+    .card-image-details {
+        align-items: flex-start;
+    }
+
+    .label {
+        width: 160px;
+        font-size: 14px;
+    }
+
+    .value {
+        font-size: 12px;
+    }
+
+    .see-more-btn {
+        padding: 10px 200px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .card-part {
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .card-image-details {
+        flex-direction: column;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .card-image {
+        margin: 0 auto;
+    }
+
+    .card-details {
+        margin: 20px auto 0;
+    }
+
+    .card-buttons a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .card-part {
+        max-width: 600px;
+    }
+
+    .see-more-btn {
+        padding: 10px 100px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card-part {
+        max-width: 500px;
+    }
+
+    .card-image {
+        max-width: 400px;
+    }
+
+    .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .card-buttons {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .card-buttons a {
+        margin-bottom: 20px;
+    }
+
+    .see-more-btn {
+        padding: 10px 60px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .info-list li {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+
+    .label {
+        width: auto;
+        font-size: 16px;
+        white-space: normal;
+    }
+
+    .colon {
+        display: none;
+    }
+    .see-more-btn{
+        padding:10px 30px;
+    }
+    .rating-part{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-buttons a{
+        font-size: 12px;
+    }
+    .card-part h2{
+        font-size: 24px;
+    }
+
+}
+
+/*=========================
+EXPERT SECTION
+===========================
+*/
+@media screen and (max-width:480px) {
+    .services-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .service-pill{
+        margin: 0 auto;
+    }    
 }
