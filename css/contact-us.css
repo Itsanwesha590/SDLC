@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Judson:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Judson:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+:root {
+    --primary-color: #FC7932E5;
+    --secondary-color: #000000;
+    --judson-font: "Judson";
+    --poppins-font: "Poppins"
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-50 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+
+
+.contact-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 50px;
+
+    border: 1px solid #dcdcdc;
+
+    background-image: url("../contact-us-assets/message-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-left {
+    width: 50%;
+}
+
+.contact-left h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: var(--judson-font);
+}
+
+.contact-left p {
+    font-size: 25px;
+    color: var(--secondary-color);
+    margin-bottom: 25px;
+    line-height: 1.6;
+    font-family: var(--poppins-font);
+    font-weight: 400;
+}
+
+.contact-left h6 {
+    font-size: 26px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-family: var(--poppins-font);
+}
+
+.socials {
+    display: flex;
+}
+
+.socials a {
+    width: 46px;
+    height: 46px;
+    background: var(--primary-color);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 26px;
+}
+
+.contact-right {
+    width: 50%;
+}
+
+.contact-right input {
+    width: 100%;
+    height: 38px;
+    padding: 0 10px;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-right input::placeholder {
+    color: var(--secondary-color);
+}
+
+.contact-right span {
+    font-family: "Arial";
+    font-weight: 400;
+}
+
+.contact-right button {
+    width: 100%;
+    height: 40px;
+    background: var(--primary-color);
+    border: 1px solid black;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.contact-right button:hover {
+    background: var(--secondary-color);
+    color: #fff;
+}
+
+/*===========================
+GET IN TOUCH SECTION
+=============================
+*/
+.get-in-touch {
+    padding: 92px 0;
+}
+
+.map-part {
+    max-width: 700px;
+    height: 520px;
+}
+
+.map-part img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right-main-part h2 {
+    font-family: var(--judson-font);
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 14px;
+}
+
+.right-main-part p {
+    font-family: var(--poppins-font);
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.contact-cards {
+    margin-top: 60px;
+}
+
+.info-card {
+    border: 1px solid #000;
+    padding: 20px 22px;
+    background: #fff;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.info-card .icon {
+    flex-shrink: 0;
+    margin-right: 12px;
+}
+
+.info-card .icon img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.info-card h4 {
+    font-family: var(--poppins-font);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.info-card p,
+.info-card span {
+    font-family: var(--poppins-font);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.extra-imp {
+    margin-bottom: 23px;
+}
+
+/*==============================
+MEDIA QUERIES
+=================================
+*/
+@media screen and (max-width: 1400px) {
+
+    /* .container {
+        max-width: 1140px;
+    } */
+
+    /*====CONTACT SECTION=====*/
+    .contact-left h2 {
+        font-size: 44px;
+    }
+
+    .contact-left p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .right-main-part h2 {
+        font-size: 46px;
+    }
+
+    .right-main-part p {
+        font-size: 21px;
+    }
+
+    .get-in-touch .col-50 {
+        width: 100%;
+    }
+
+    .right-main-part .col-50 {
+        width: 50%;
+    }
+
+    .map-part {
+        max-width: 100%;
+        height: 420px;
+        margin-bottom: 40px;
+    }
+}
+
+/* ===============================
+   Contact section stack at 992px
+================================ */
+
+@media screen and (max-width: 992px) {
+
+    .contact-box {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+    }
+
+    .contact-left {
+        margin-bottom: 30px;
+    }
+}
+
+/*===========================
+GET IN TOUCH SECTION
+==============================
+*/
+@media screen and (max-width:768px) {
+    .right-main-part .col-50 {
+        width: 100%;
+    }
+
+    /*====CONTACT SECTION===*/
+    .contact-left h2 {
+        font-size: 38px;
+    }
+
+    .contact-left p {
+        font-size: 18px;
+    }
+
+    .contact-left h6 {
+        font-size: 20px;
+    }
+}
+
+/*====================
+GET IN TOUCH SECTION
+=====================
+*/
+@media screen and (max-width:576px) {
+    .right-main-part p {
+        font-size: 16px;
+    }
+}
+
+/*============================
+CONTACT SECTION
+==============================
+*/
+@media screen and (max-width:480px) {
+
+    .socials a {
+        width: 44px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .socials a img {
+        width: 20px;
+        height: 20px;
+    }
+}
